@@ -1,5 +1,5 @@
 /**
- * ZeroPoint Template Rebranding Script
+ * blog Template Rebranding Script
  * Simple setup script to customize the template for a new project.
  */
 
@@ -158,18 +158,18 @@ async function rebrand() {
     process.exit(0);
   }
 
-  // Safety check - ensure we're working with a ZeroPoint template
+  // Safety check - ensure we're working with a blog template
   const packageJson = JSON.parse(readFileSync('package.json', 'utf8'));
-  if (packageJson.name !== 'ZeroPoint') {
-    // Clean up template marker if this isn't a ZeroPoint template
+  if (packageJson.name !== 'blog') {
+    // Clean up template marker if this isn't a blog template
     unlinkSync('.template');
     if (isCI) {
-      console.log('⚠️ Not a ZeroPoint template, skipping...');
+      console.log('⚠️ Not a blog template, skipping...');
     }
     process.exit(0);
   }
 
-  console.log('🪐 Welcome to ZeroPoint! Let\'s customize this for your project.\n');
+  console.log('🪐 Welcome to blog! Let\'s customize this for your project.\n');
 
   // Get git information for defaults
   const gitInfo = getGitInfo();
@@ -204,9 +204,9 @@ async function rebrand() {
   console.log('\n🔄 Updating files...');
 
   // Perform text replacements across all project files (case-sensitive)
-  replaceInFiles('ZeroPoint', projectName.replace(/\s+/g, '')); // Remove spaces from project name
-  replaceInFiles('MWDelaney', author); // Replace default author
-  replaceInFiles('zeropoint', projectName.toLowerCase().replace(/\s+/g, '-')); // Lowercase with hyphens
+  replaceInFiles('blog', projectName.replace(/\s+/g, '')); // Remove spaces from project name
+  replaceInFiles('Devin', author); // Replace default author
+  replaceInFiles('blog', projectName.toLowerCase().replace(/\s+/g, '-')); // Lowercase with hyphens
 
   // Update package.json with new details
   const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
@@ -222,11 +222,11 @@ async function rebrand() {
       console.warn(`Could not backup README.md: ${error.message}`);
     }
   }
-  if (existsSync('README.ZeroPoint.md')) {
+  if (existsSync('README.blog.md')) {
     try {
-      copyFileSync('README.ZeroPoint.md', 'README.md'); // Use ZeroPoint README as new README
+      copyFileSync('README.blog.md', 'README.md'); // Use blog README as new README
     } catch (error) {
-      console.warn(`Could not copy README.ZeroPoint.md: ${error.message}`);
+      console.warn(`Could not copy README.blog.md: ${error.message}`);
     }
   }
 
