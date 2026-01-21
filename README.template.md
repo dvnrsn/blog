@@ -1,13 +1,15 @@
 # 🪐blog Starter
+
 ![starter-logo](https://github.com/user-attachments/assets/86aa94e9-88a9-4902-a622-b74f8e4216ea)
 
 👉 Get your website project up to zero.
 
-<a href="https://github.com/Devin/blog/generate">
+<a href="https://github.com/dvnrsn/blog/generate">
   <img src="https://img.shields.io/badge/use%20this-template-blueviolet?logo=github&style=for-the-badge" alt="Use this template">
 </a>
 
 ---
+
 **⭐ If you just used this template repository ⭐**
 
 Prepare your repository for use by removing blog branding and replacing it with your own project name and description.
@@ -31,21 +33,21 @@ Prepare your repository for use by removing blog branding and replacing it with 
 
 ## What You Get
 
-* 🚀 **Deploy anywhere** - Ready for [GitHub Pages](https://pages.github.com/), [Netlify](https://netlify.com/), [Cloudflare Pages](https://pages.cloudflare.com/), or your own server
-* 🔍 **Built-in search** - Full-text search with [Pagefind](https://pagefind.app/) already working at `/search/`
-* 📝 **Blog-ready** - Complete blog system ready to enable when you need it
-* 🖼️ **Image optimization** - Automatic image resizing and responsive images with [Eleventy Image](https://www.11ty.dev/docs/plugins/image/)
-* 🎯 **SEO features** - Meta tags, XML sitemap, and robots.txt included
-* ⚒️ **Modern tools** - Sass and JavaScript compilation with fast builds
-* 🗺️ **Clean code** - Organized project structure with modern JavaScript
-* 🎨 **Developer experience** - Live reload, code formatting, and intuitive configuration
-* 🔧 **Easy to extend** - Add your own components, filters, and plugins
+- 🚀 **Deploy anywhere** - Ready for [GitHub Pages](https://pages.github.com/), [Netlify](https://netlify.com/), [Cloudflare Pages](https://pages.cloudflare.com/), or your own server
+- 🔍 **Built-in search** - Full-text search with [Pagefind](https://pagefind.app/) already working at `/search/`
+- 📝 **Blog-ready** - Complete blog system ready to enable when you need it
+- 🖼️ **Image optimization** - Automatic image resizing and responsive images with [Eleventy Image](https://www.11ty.dev/docs/plugins/image/)
+- 🎯 **SEO features** - Meta tags, XML sitemap, and robots.txt included
+- ⚒️ **Modern tools** - Sass and JavaScript compilation with fast builds
+- 🗺️ **Clean code** - Organized project structure with modern JavaScript
+- 🎨 **Developer experience** - Live reload, code formatting, and intuitive configuration
+- 🔧 **Easy to extend** - Add your own components, filters, and plugins
 
 ## Get started: Use This Template
 
 Start your project with blog by clicking the "Use this template" button below:
 
-<a href="https://github.com/Devin/blog/generate">
+<a href="https://github.com/dvnrsn/blog/generate">
   <img src="https://img.shields.io/badge/use%20this-template-blueviolet?logo=github&style=for-the-badge" alt="Use this template">
 </a>
 
@@ -68,12 +70,14 @@ npm run dev
 Your site will be available at `http://localhost:8080` with live reload - any changes you make will automatically refresh the browser.
 
 ### What happens when you run `npm run dev`:
+
 - Builds your Sass stylesheets and JavaScript
-- Starts Eleventy in watch mode  
+- Starts Eleventy in watch mode
 - Launches a local web server with live reload
 - Generates search index with Pagefind
 
 ### Ready to make changes?
+
 - Edit content in the `content/` folder
 - Customize styles in `src/assets/styles/`
 - Add images to `src/assets/images/`
@@ -107,7 +111,7 @@ Deploy blog to [Netlify](https://netlify.com) for **free**!
 1. Fork or create a new repository from this template
 2. Connect your repository to Netlify or use the deploy button below:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Devin/blog/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dvnrsn/blog/)
 
  </details>
 
@@ -131,22 +135,22 @@ blog includes additional features that are disabled by default. Enable them when
 
 ### 📝 Blog System
 
-* Full blog functionality with templates and collections
-* Enable by uncommenting the posts collection in `src/config/collections.js`
-* Includes pagination, SEO, and individual post templates
+- Full blog functionality with templates and collections
+- Enable by uncommenting the posts collection in `src/config/collections.js`
+- Includes pagination, SEO, and individual post templates
 
 ### 🔍 Full-Text Search
 
-* Client-side search powered by [Pagefind](https://pagefind.app/)
-* Already working at `/search/` - no setup required
-* Lightweight and fast
+- Client-side search powered by [Pagefind](https://pagefind.app/)
+- Already working at `/search/` - no setup required
+- Lightweight and fast
 
 ### 🧩 Component System
 
-* Reusable components via [eleventy-plugin-reusable-components](https://github.com/Devin/eleventy-plugin-reusable-components)
-* Enable by uncommenting the plugin in `src/config/plugins.js`
+- Reusable components via [eleventy-plugin-reusable-components](https://github.com/dvnrsn/eleventy-plugin-reusable-components)
+- Enable by uncommenting the plugin in `src/config/plugins.js`
 
-*See the [CHANGELOG](CHANGELOG.md) for complete details on these features.*
+_See the [CHANGELOG](CHANGELOG.md) for complete details on these features._
 
 ## Project Structure
 

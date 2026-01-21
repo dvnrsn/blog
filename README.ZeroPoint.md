@@ -15,15 +15,15 @@ Create and edit your site **right from this readme file!**.
 
 Create your site's main content! Pages can be written in HTML or [Markdown](https://www.markdownguide.org/basic-syntax/)!
 
-* [Edit the homepage](https://github.com/Devin/blog/edit/main/src/content/pages/index.md)
-* [Create a new page](https://github.com/Devin/blog/new/main/?filename=/src/content/pages/&value=---%0Atitle%3A%20Enter%20page%20title%20here%0A---)
+- [Edit the homepage](https://github.com/dvnrsn/blog/edit/main/src/content/pages/index.md)
+- [Create a new page](https://github.com/dvnrsn/blog/new/main/?filename=/src/content/pages/&value=---%0Atitle%3A%20Enter%20page%20title%20here%0A---)
 
 <!--
 
 ---
 #### Posts
 Blog posts
-* [Create a new post](https://github.com/Devin/blog/new/main/?filename=/src/content/posts/&value=----%0Atitle%3A%20%22Enter%20post%20title%22%0Adate%3A%20%222025-01-01%0A---)
+* [Create a new post](https://github.com/dvnrsn/blog/new/main/?filename=/src/content/posts/&value=----%0Atitle%3A%20%22Enter%20post%20title%22%0Adate%3A%20%222025-01-01%0A---)
 
 -->
 </details>
@@ -37,14 +37,14 @@ Blog posts
 
 Your site's navigation is how your users will get around! Edit the site's navigation menu in [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)!
 
-* [Edit the navigation](https://github.com/Devin/blog/edit/main/src/data/navigation.json)
+- [Edit the navigation](https://github.com/dvnrsn/blog/edit/main/src/data/navigation.json)
 
 ### Styles
 
-Colors, spacing, and fonts, oh my! You can edit your branding and styles here using CSS, SCSS, and CSS variables! 
+Colors, spacing, and fonts, oh my! You can edit your branding and styles here using CSS, SCSS, and CSS variables!
 
-* [Edit your branding](https://github.com/Devin/blog/edit/main/src/assets/styles/_branding.scss)
-* [Edit your overall styles](https://github.com/Devin/blog/edit/main/src/assets/styles/styles.scss)
+- [Edit your branding](https://github.com/dvnrsn/blog/edit/main/src/assets/styles/_branding.scss)
+- [Edit your overall styles](https://github.com/dvnrsn/blog/edit/main/src/assets/styles/styles.scss)
 
 Learning CSS can be daunting but there are a ton of useful resources on the web. Check out [SmolCSS](https://smolcss.dev) to get started!
 
@@ -52,7 +52,7 @@ Learning CSS can be daunting but there are a ton of useful resources on the web.
 
 **Optional!** Add javascript functionality to your site
 
-* [Add Javascript](https://github.com/Devin/blog/edit/main/src/assets/scripts/main.js)
+- [Add Javascript](https://github.com/dvnrsn/blog/edit/main/src/assets/scripts/main.js)
 
 </details>
 
@@ -68,8 +68,8 @@ Once you set up deployment, any time you commit to your repository's `main` bran
 
 ### Setup:
 
-1. [Enable GitHub Pages](https://github.com/Devin/blog/settings/pages) in your repository settings, choose "GitHub Actions" as the source.
-2. [Allow "Read and write permissions" for GitHub Workflows](https://github.com/Devin/blog/settings/actions) in your repository settings for the GitHub Actions workflow to run.
+1. [Enable GitHub Pages](https://github.com/dvnrsn/blog/settings/pages) in your repository settings, choose "GitHub Actions" as the source.
+2. [Allow "Read and write permissions" for GitHub Workflows](https://github.com/dvnrsn/blog/settings/actions) in your repository settings for the GitHub Actions workflow to run.
 
 </details>
 
@@ -78,8 +78,7 @@ Once you set up deployment, any time you commit to your repository's `main` bran
 
 ### Setup:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Devin/blog/)
-
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dvnrsn/blog/)
 
 </details>
 
@@ -104,7 +103,7 @@ example.com                 # → Root of your project
 │   │   │   └── partials/
 │   │   └── assets.json     # → Shared attributes for files in the assets directory
 │   ├── config/             # → Eleventy configuration
-│   │   ├── build.js        # → Javascript and CSS build and bundler configuration 
+│   │   ├── build.js        # → Javascript and CSS build and bundler configuration
 │   │   ├── collections.js  # → Add and configure collections (https://www.11ty.dev/docs/collections/)
 │   │   ├── filters.js      # → Add and configure filters (https://www.11ty.dev/docs/filters/)
 │   │   ├── passthroughs.js # → Add and configure passthroughs (https://www.11ty.dev/docs/copy/)

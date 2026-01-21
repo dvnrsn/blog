@@ -29,7 +29,7 @@ export default {
 
   /**
    * blog Reusable Components plugin
-   * https://github.com/Devin/eleventy-plugin-reusable-components
+   * https://github.com/dvnrsn/eleventy-plugin-reusable-components
    */
   // async reusableComponents (eleventyConfig) {
   //   // Add plugin to eleventyConfig
